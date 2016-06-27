@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 高仿微信6.0主界面 带你玩转切换图标变色 -->
+    <attr name="icon" format="reference" />  
+    <attr name="color" format="color" />  
+    <attr name="text" format="string" />  
+    <attr name="text_size" format="dimension" />  
+  
+    <declare-styleable name="ChangeColorIconView">  
+        <attr name="icon" />  
+        <attr name="color" />  
+        <attr name="text" />  
+        <attr name="text_size" />  
+    </declare-styleable>  
+    
+    
+    <declare-styleable name="MyRatingBar">
+        <!-- 尚未选中时的图标 -->
+        <attr name="select_icon" format="reference" />
+        <!-- 选中后的图标 -->
+        <attr name="unselect_icon" format="reference" /> 
+        <!-- 星星数量 -->
+        <attr name="star_number" format="integer"/>
+        <!-- 星星之间的间距 -->
+        <attr name="star_margin" format="dimension"/>
+        <!-- 默认星级 -->
+        <attr name="default_rating" format="float"/>
+    </declare-styleable>
+  <declare-styleable name="DottedProgressBar">
+        <attr name="emptyDotsColor" format="color" />
+        <attr name="activeDotColor" format="color"/>
+        <attr name="inactiveDot" format="reference|color"/>
+        <attr name="activeDot" format="reference|color"/>
+        <attr name="dotSize" format="dimension"/>
+        <attr name="spacing" format="dimension"/>
+        <attr name="jumpingSpeed" format="integer"/>
+        <attr name="activeDotIndex" format="integer"/>
+    </declare-styleable>
+
+ <declare-styleable name="ClickableHistogram">
+        <attr name="columnWidth" format="dimension"/>
+        <attr name="columnMargin" format="dimension"/>
+        <attr name="axisWidth" format="dimension"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="color"/>
+        <attr name="columnColor" format="color"/>
+        <attr name="axisColor" format="color"/>
+    </declare-styleable>
+
+
+</resources>
